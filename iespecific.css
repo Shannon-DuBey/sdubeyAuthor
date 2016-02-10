@@ -1,0 +1,5 @@
+/* For IE 4-8 - rounds all corners */
+.rounded-corners-top, .rounded-corners-bottom {
+	border-radius:10px;
+	behavior: url(PIE.htc);
+}
