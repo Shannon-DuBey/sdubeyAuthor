@@ -1,0 +1,8 @@
+.book_card {
+    box-sizing:border-box;
+    width:33%;
+    height:15em;
+    background-color: #cfcfcf;
+    padding:2%;
+    display:inline-flex
+}
