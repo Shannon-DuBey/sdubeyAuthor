@@ -1,7 +1,7 @@
 <div class="main_content">
-  <app-book-card></app-book-card>
-  <app-book-card></app-book-card>
-  <app-book-card></app-book-card>
+  <app-book-card *ngFor="let book of books"
+    [book] = "book">
+  </app-book-card>
 
   <app-about-author></app-about-author>
 </div>

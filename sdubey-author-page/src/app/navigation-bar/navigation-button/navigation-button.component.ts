@@ -1,19 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navigation-button',
   templateUrl: './navigation-button.component.html',
   styleUrls: ['./navigation-button.component.css']
 })
-export class NavigationButtonComponent implements OnInit {
-  buttonText: string;
-
+export class NavigationButtonComponent {
   constructor() {
-    this.buttonText = 'test';
-  }
+    console.log(this.btnTxt);
+    }
 
-  ngOnInit() {
-
-  }
+  @Input() btnTxt: string;
 
 }

@@ -1,5 +1,15 @@
 <div class="book_card">
-  <p>
-    This will give a short title, summary, and publication info here with link to fill book info page
-  </p>
+  <div><h3>TITLE: {{ book.title }}</h3></div>
+  <div>
+    <p>Summary: {{ book.description }}</p>
+    <p>Published: {{ book.pubDate }}</p>
+  </div>
+  <div>
+    <p> other info: <br />
+      Summary: {{ book.summary }}
+      Cover Image Path: {{ book.coverImg }}
+      Hero Image Path: {{ book.heroImg }}
+      Card Image Path: {{ book.cardImg }}
+    </p>
+  </div>
 </div>
