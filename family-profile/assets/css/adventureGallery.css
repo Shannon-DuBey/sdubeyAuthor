@@ -1,0 +1,13 @@
+.photo_tag {
+    position: relative; 
+    z-index:300; 
+    margin: 0 auto; 
+    width: 500px; 
+    color: #fff; 
+    background-color: rgba(0, 0, 0, .75); 
+    font-size: .75em;
+}
+
+.gallery_photo {
+    margin-top: -1.7em;
+}
