@@ -2270,16 +2270,19 @@ input, select, textarea {
 		background-size: cover;
 	}
 
-	#jen > div > img {
+	#jen .sticker {
 		opacity: .5;
 		position: absolute;
 		right: .5em;
 		width: 10em;
 	}
 
-	#jen > div > p:nth-of-type(1) {
-		width: 85%;
+	@media screen and (min-width: 737px) {
+		#jen > div > p:nth-of-type(1) {
+			width: calc(100% - 11em)
+		}
 	}
+
 
 /* shannon */
 
@@ -2288,16 +2291,19 @@ input, select, textarea {
 		background-size: cover;
 	}
 
-	#shannon > div > img {
+	#shannon .sticker {
 		opacity: .5;
 		position: absolute;
 		right: .5em;
 		width: 10em;
 	}
 
-	#shannon > div > p:nth-of-type(1) {
-		width: 85%;
+	@media screen and (min-width: 737px) {
+		#shannon > div > p:nth-of-type(1) {
+			width: calc(100% - 11em)
+		}
 	}
+
 
 
 /* Adventures */
@@ -2384,4 +2390,14 @@ input, select, textarea {
 /* common */
 .topic {
 	font-weight: 800;
+}
+
+@media screen and (max-width: 736px) {
+	.sticker {
+		display: none;
+	}
+
+	.style2 {
+		text-align: justify!important;
+	}
 }
