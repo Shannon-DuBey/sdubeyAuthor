@@ -2311,6 +2311,7 @@ input, select, textarea {
 	#adventures {
 		background: url("../../images/pathBg1.jpg") no-repeat center fixed;
 		background-size: cover;
+		color: #9ac8e9;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2350,6 +2351,7 @@ input, select, textarea {
 
 		background: url('../../images/rockFeet1.jpg') no-repeat center fixed;
 		background-size: cover;
+		color: #88bc82;
 	}
 
 		#extra .box {
@@ -2390,6 +2392,15 @@ input, select, textarea {
 /* common */
 .topic {
 	font-weight: 800;
+}
+.spacedTitle{
+	letter-spacing: .1em;
+}
+.sectionDivider {
+	background-color:rgba(68, 131, 180, 0.75); 
+	text-align: center; 
+	color: #39454b; 
+	padding: 2em;
 }
 
 @media screen and (max-width: 736px) {
