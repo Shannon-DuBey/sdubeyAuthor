@@ -29,6 +29,12 @@
     * Create rules for when slides are contained within a track
   */
 }
+
+@media screen and (max-width: 480px) {
+  .carousel {
+    height: 850px;
+  }
+}
 .carousel__controls,
 .carousel__activator {
   display: none;

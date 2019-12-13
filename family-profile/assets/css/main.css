@@ -2307,6 +2307,30 @@ input, select, textarea {
 		background-size: cover;
 	}
 
+	@media screen and (max-width: 736px) {
+
+		#travel_gallery {
+			width: 100%;
+			border: 1px solid red;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#travel_gallery {
+			width: 100%;
+			border: 1px solid red;
+		}
+		#travel_gallery .gallery_photo {
+			width: 100%;
+			margin-top: 0;
+		}
+		#travel_gallery .photo_tag {
+			width: 100%;
+		}
+	}
+
 /* Extra */
 
 	#extra {
