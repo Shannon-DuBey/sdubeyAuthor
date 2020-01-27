@@ -427,5 +427,9 @@ a img {
 }
 #links a:hover {
 	color: #fff;
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	border-bottom: 1px solid #0099ff;
+}
+#links img {
+	position: unset;
 }
